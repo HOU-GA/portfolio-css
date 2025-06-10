@@ -1,10 +1,16 @@
+
+/*********************importation de style ecriture Robot --- Google fonts***********************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Roboto', sans-serif;
+
 }
 
+/*************arriere plan page web************************/
 body {
 background: #1f242d;
 }
@@ -15,6 +21,7 @@ a {
     text-decoration: none;
 }
 
+/*********************barre de navigation********************************/
 .navbar {
     position: fixed;
     left: 0;
@@ -66,6 +73,7 @@ a {
 .home_info h1 {
     font-size: 55px;
 
+    font-family: "Roboto Serif", serif;
 }
 
 .home_info h2 {
