@@ -28,8 +28,8 @@ a {
     top: 0;
     width: 100%;
     padding: 25px 9%;
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    
     align-items: center;
     z-index: 100;
 }
@@ -40,7 +40,7 @@ a {
 }
 
 .navbar ul {
-    display: flex;
+    display: inline-flex;
 
 }
  
